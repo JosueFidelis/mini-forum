@@ -1,0 +1,23 @@
+<section>
+    <div class="comment-container">
+        <h1>Comentários</h1>
+        
+        <div class="form-container">
+            <form (ngSubmit)="onSubmit()">
+                <label for="author">Nome</label>
+                <input name="author" type="text" [(ngModel)]="comment.author" autocomplete="off">
+                
+                <label for="message">Mensagem</label>
+                <textarea name="message" cols="60" rows="5" [(ngModel)]="comment.message" (keydown.enter)="onSubmit()"></textarea>
+                
+                <div class="button-container">
+                    <button class="button" type="submit">Adicionar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img class="logo-image"src="../../../assets/logo.svg" alt="logo">
+    </div>
+</section>

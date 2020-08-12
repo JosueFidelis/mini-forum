@@ -1,0 +1,10 @@
+<div class="lastComments-container">
+    <h1>Últimos comentários</h1>
+    
+    <div id="comments-section-container">
+        <div *ngFor="let comment of this.db.comments" name="comment">
+            <div class="message" name="message">{{comment.message}}</div>
+            <div class="author" name="author">{{comment.author}}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #84087E;
+    font-size: 30px;
+}
+
+label[for="message"] {
+    margin-top: 6.18%;
+}
+
+form {
+    input, label, textarea {
+        color: #515151;
+        width: 100%;
+        display: block;
+        resize: none;
+    }
+}
+
+label {
+    text-align: left;
+    font-weight: 500;
+    font-size: 68%;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+input, textarea {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid;
+    border-color: #84087E;
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 1%;
+}
+
+.image-container {
+    margin-right: 5.8775%;
+    background-color: #84087E;
+    background-image: url("../../../assets/background_grafismos_roxo.svg");
+    background-size: cover;
+    width: 20vw;
+    height: 70vh;
+}
+
+.logo-image {
+    width: 25vh;
+    height: auto;
+    margin-top: 92.49%;
+    margin-left: 10vh;
+}
+
+
+.button-container {
+    align-self: flex-end;
+    margin-top: 11.55%;
+    float: right;
+}
+
+.button {
+    font: Medium 22px/27px;
+    border: none;
+    border-radius: 5px;
+    background: #84087E 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: white;
+    letter-spacing: 0;
+    opacity: 1;
+    width: 5.5vw;
+    height: 3vh;
+}
+
+.comment-container {
+    justify-content: center;
+    margin-top: 4.6275%;
+    margin-left: 5.8775%;
+}
+
+.form-container {
+    margin-top: 3.655%;
+}
